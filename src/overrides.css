@@ -100,3 +100,46 @@ body.case-open .fj-world canvas{visibility:hidden!important}
 .map-beacon{position:absolute;z-index:6;left:52%;top:48%;width:52px;height:52px;display:grid;place-items:center;transform:translate(-50%,-50%);pointer-events:none;opacity:0;transition:opacity .6s .35s}.map-frame.is-loaded .map-beacon{opacity:1}.map-beacon i{position:absolute;inset:0;border:2px solid #bd1747;border-radius:50%;box-shadow:0 0 0 8px #fff5,0 0 30px #ff3e75;animation:mapBeacon 1.8s ease-out infinite}.map-beacon b{position:relative;z-index:2;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#8d152d;color:#fff;font-size:.72rem}.map-beacon span{position:absolute;left:56px;white-space:nowrap;padding:7px 9px;background:#110309e8;color:#fff;border:1px solid #e56a8d88;font:.45rem 'DM Mono';letter-spacing:.1em}
 @keyframes mapLoaderOrbit{to{transform:rotate(360deg)}}@keyframes mapLoadingText{to{opacity:.35;letter-spacing:.24em}}@keyframes mapScan{0%,100%{top:12px}50%{top:calc(100% - 14px)}}@keyframes mapBeacon{0%{transform:scale(.6);opacity:1}100%{transform:scale(1.5);opacity:0}}
 @media(max-width:760px){.map-loader{inset:7px}.map-scan{left:7px;right:7px}.map-beacon span{display:none}}
+
+/* Responsive composition: tablet */
+@media (max-width:1050px){
+  header{padding-inline:5vw}nav{gap:18px;font-size:.6rem}
+  .hero{padding-inline:7vw}.hero-copy{max-width:55vw}.kinetic-stage{width:58vw}
+  .statement,.projects,.services,.team,.process,.updates,.contact{padding-left:7vw;padding-right:7vw}
+  .project-wall{height:580px}.project-card{padding:18px 14px}.project-title{left:14px}.project-detail{right:14px}
+  .fj-world{height:max(760px,100svh);min-height:0}.world-gate-copy{padding-inline:7vw}.world-gate-copy h2{font-size:clamp(4.2rem,10vw,7rem)}
+  .news-detail-layout{width:90vw;gap:4vw}.news-detail-copy h2{font-size:clamp(3.4rem,6.5vw,5.8rem)}
+}
+
+/* Responsive composition: phones */
+@media (max-width:700px){
+  html,body,#root{max-width:100%;overflow-x:hidden}body{font-size:15px}
+  header{height:72px;padding:0 5vw}.header-logo,.brand-logo{max-width:112px;height:58px;object-fit:contain}
+  .mobile-menu{z-index:30;padding:16vw 8vw;font-size:clamp(2.2rem,11vw,4rem)}
+  .hero{min-height:100svh;padding:92px 6vw 7vh}.hero-copy{max-width:100%;width:100%}.hero h1{font-size:clamp(3.7rem,17vw,5.4rem)}
+  .intro{max-width:78vw;margin:25px 0;font-size:.86rem}.launcher-button i{width:78px;height:78px}.hero-index{display:none}.kinetic-stage{right:-58vw;width:132vw;height:52vh;opacity:.48}
+  .statement,.projects,.services,.team,.process,.updates,.contact{padding:11vh 6vw}.statement h2,.projects h2,.services h2,.team h2,.process h2,.updates h2{font-size:clamp(2.8rem,13vw,4.5rem)}
+  .project-wall{height:auto;display:grid;grid-template-columns:1fr;gap:10px}.project-card{min-height:260px;width:100%;padding:18px}.project-card:hover,.project-card.is-active{transform:none}.project-title{left:18px;bottom:18px}.project-title h3{font-size:2rem}.project-detail{right:18px;bottom:18px}
+  .service{grid-template-columns:30px minmax(0,1fr);padding:22px 0}.service-copy h3{font-size:1.65rem}.service-whatsapp{grid-column:2;max-width:100%;white-space:normal;font-size:.52rem}
+  .lead-showcase{width:88vw;min-height:520px;margin:6vh auto 9vh}.lead-copy{padding:34px 24px 18px}.lead-copy h3{font-size:3.2rem}.lead-scene{min-height:315px}.lead-image{width:64%;left:18%;height:86%}
+  .restored-strip .team-person{width:78vw}.restored-strip .portrait{height:min(112vw,430px)}
+  .steps{grid-template-columns:1fr}.step,.step:nth-child(2n){border-right:0;border-bottom:1px solid #0004;min-height:120px}.step h3{margin-top:30px}
+  .update-list article{padding:22px 0}.update-list h3{font-size:1.35rem;line-height:1.08}.update-answer{font-size:.8rem}
+  .contact{min-height:auto;padding-top:12vh;padding-bottom:10vh}.contact h2{font-size:clamp(3.5rem,16vw,5.4rem)}.contact-details{width:88vw}.whatsapp{max-width:88vw;padding:15px 18px}.whatsapp svg:last-child{margin-left:8px}
+  footer{gap:15px}footer .footer-logo{max-width:86px}
+  .fj-world{height:900px;min-height:900px;touch-action:pan-y;background:radial-gradient(circle at 50% 44%,#310711 0,#080306 62%,#020203 100%)}
+  .fj-world:after{content:'FJ DIGITAL WORLD';top:12%;left:0;right:auto;width:100%;font-size:24vw;line-height:.72;overflow:hidden}
+  .world-help{top:82px;font-size:.48rem}.world-count{right:6vw;bottom:22px}.world-card-art{width:160px;height:96px}.world-card-art .world-card-label{left:9px;right:9px;bottom:8px}.world-card-art .world-card-label small{font-size:4.5px}.world-card-art .world-card-label strong{font-size:11px;line-height:1.05}
+  .world-gate{display:flex;align-items:center;justify-content:center;padding:85px 6vw 45px}.world-gate-copy{width:100%;padding:0;position:relative;z-index:3}.world-gate-copy h2{font-size:clamp(3.8rem,18vw,5.8rem);line-height:.8}.world-gate-copy p{font-size:.5rem}.world-gate-copy>span{font-size:.75rem}.world-gate button{margin-top:30px;max-width:88vw;padding:14px 17px;gap:12px;font-size:.5rem}.world-gate-orbit{width:118vw;max-width:none}
+  .news-detail-top{position:sticky;top:0;background:#090405dd;backdrop-filter:blur(12px)}.news-detail-layout{width:88vw;padding:3vh 0 15vh}.news-detail-copy{margin-bottom:4vh}.news-detail-copy h2{font-size:clamp(3.1rem,15vw,5rem);line-height:.82}.news-detail-copy>p:not(.eyebrow){margin:22px 0;font-size:.82rem}.news-detail-meta{grid-template-columns:1fr 1fr}.news-slider-stage{aspect-ratio:4/5}.news-media-caption{left:15px;right:15px;bottom:15px;display:block}.news-media-caption small{display:block;text-align:left;margin-top:7px}.news-story-nav{left:4vw;right:4vw}.news-story-nav button{font-size:.45rem}.news-story-nav span{font-size:.44rem}
+  .case-layout{width:88vw}.case-copy h2{font-size:clamp(3.5rem,16vw,5.5rem)}.case-nav{left:4vw;right:4vw}.case-nav button{font-size:.45rem}
+  .map-popup{padding:2vh 4vw}.map-popup-top{align-items:center}.map-popup-top h3{font-size:2.8rem;margin-bottom:16px}.map-frame{width:90vw;height:50vh}.map-popup-bottom{width:90vw}
+}
+
+@media (max-width:390px){
+  .hero h1{font-size:3.6rem}.fj-world{height:840px;min-height:840px}.world-card-art{width:145px;height:87px}.world-card-art .world-card-label strong{font-size:10px}.contact-details strong{font-size:.64rem}.news-detail-copy h2{font-size:3rem}
+}
+
+@media (orientation:landscape) and (max-height:600px){
+  .fj-world{height:720px;min-height:720px}.world-gate{padding-top:60px}.world-gate-copy h2{font-size:4.2rem}.world-gate button{margin-top:20px}.hero{min-height:720px}
+}
