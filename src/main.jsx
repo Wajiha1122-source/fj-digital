@@ -20,6 +20,8 @@ import independenceEventVideo from './assets/news/independence-day/event-video.m
 import independenceEventTeam from './assets/news/independence-day/event-team.jpeg';
 import independenceEventCake from './assets/news/independence-day/event-cake.jpeg';
 import faisalJavedPhoto from './assets/faisal-javed.jpeg';
+import kashmalaPhoto from './assets/kashmala.png';
+import aliJavedPhoto from './assets/ali-javed.png';
 
 const whatsappUrl = 'https://wa.me/923179709222?text=Hello%20FJ%20Digital%2C%20I%20would%20like%20to%20discuss%20a%20project.';
 const projects = [
@@ -39,7 +41,7 @@ const worldNews = [
 ];
 const team = [
   ['WA', 'Wajha Azeem', 'Team Leader · Web & App Developer', wajhaPhoto, 'leader'], ['TA', 'Tahir Aly', 'Digital Services Manager', tahirPhoto, ''],
-  ['BI', 'Basil Imran', 'SEO & E-commerce Expert', basilPhoto, ''], ['AK', 'Ayesha Khan', 'Graphic Designer · Video Editor', null, ''], ['MO', 'Moiz', 'AI Automation Specialist', null, '']
+  ['BI', 'Basil Imran', 'SEO & E-commerce Expert', basilPhoto, ''], ['KA', 'Kashmala', 'Graphic Designer · Video Editor', kashmalaPhoto, ''], ['AJ', 'Ali Javed', 'AI Automation Specialist', aliJavedPhoto, '']
 ];
 const updates = [
   ['INSIGHT', 'Why human-first content still wins in an AI-shaped feed.', '08.16.2026', 'Because trust, emotion and genuine perspective cannot be automated. We use AI to move faster, while human strategy and storytelling keep every brand recognisable and worth following.'],
