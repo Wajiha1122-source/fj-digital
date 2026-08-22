@@ -150,3 +150,5 @@ body.case-open .fj-world canvas{visibility:hidden!important}
 @media(max-width:600px){.ceo-feature{padding:5vh 4vw}.ceo-reveal{width:92vw}.ceo-stage{transform:none!important}.ceo-stage:before{inset:8px}.ceo-copy{padding:8vh 7vw 3vh;transform:none}.ceo-copy h2{font-size:clamp(4.1rem,20vw,6rem)}.ceo-copy h3{margin-top:25px}.ceo-copy>p:not(.eyebrow){font-size:.86rem;line-height:1.7}.ceo-copy>span{margin-top:30px;font-size:.46rem}.ceo-portrait{height:480px;transform:none}.ceo-photo-frame{width:78%;max-height:430px}.ceo-portrait>b{left:3%;bottom:6%;font-size:7rem}.ceo-atmosphere span{font-size:38vw}}
 @media(pointer:coarse){.ceo-stage,.ceo-copy,.ceo-portrait,.ceo-atmosphere span{transform:none}}
 @media(prefers-reduced-motion:reduce){.ceo-atmosphere i{animation:none}.ceo-stage,.ceo-copy,.ceo-portrait{transition:none;transform:none}}
+.ceo-feature .ceo-stage{animation:none}
+@media(max-width:600px){.ceo-feature .ceo-stage{transform-style:preserve-3d!important}.ceo-feature .ceo-copy,.ceo-feature .ceo-portrait{transform-style:preserve-3d}}
