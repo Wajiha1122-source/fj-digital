@@ -26,6 +26,8 @@ import independenceEventTeam from './assets/news/independence-day/event-team.jpe
 import independenceEventCake from './assets/news/independence-day/event-cake.jpeg';
 import fjGroupShootVideo from './assets/news/fj-group-shoot/fj-group-shoot.mp4';
 import fjGroupShootPoster from './assets/news/fj-group-shoot/fj-group-shoot-poster.jpg';
+import irshadCompanyVideo from './assets/news/irshad-company/irshad-company.mp4';
+import irshadCompanyPoster from './assets/news/irshad-company/irshad-company-poster.jpg';
 import faisalJavedPhoto from './assets/faisal-javed.jpeg';
 import kashmalaPhoto from './assets/kashmala.webp';
 import aliJavedPhoto from './assets/ali-javed.webp';
@@ -44,7 +46,7 @@ const worldNews = [
   { no: '02', type: 'EVENT', title: 'Independence Day Event', result: 'Organized by FJ Digital for the FJ Group team.', color: 'white', visual: 'event', cover: independenceEventTeam, summary: 'The FJ Digital team planned and organized this Independence Day celebration at FJ Group, bringing colleagues and families together through festive décor, shared activities and a memorable cake-cutting moment.', slides: [{ type: 'image', src: independenceEventTeam, label: 'Team and family celebration' }, { type: 'video', src: independenceEventVideo, poster: independenceEventPoster, label: 'Independence Day event film' }, { type: 'image', src: independenceEventCake, label: 'FJ Group celebration cake' }] },
   { no: '03', type: 'BEHIND THE SCENES', title: 'FJ Group Shoot', result: 'Inside a day of production and collaboration.', color: 'gold', visual: 'shoot', cover: fjGroupShootPoster, summary: 'A behind-the-scenes view of the planning, production and creative teamwork that brought the FJ Group shoot together.', slides: [{ type: 'video', src: fjGroupShootVideo, poster: fjGroupShootPoster, label: 'Behind the scenes at the FJ Group shoot' }] },
   { no: '04', type: 'WEBSITE UPDATE', title: 'FJ Group Website', result: 'The group’s digital presence takes shape.', color: 'ink', visual: 'fjgroup', summary: 'A premium editorial story covering the digital direction, content structure and experience created for the FJ Group website.', slides: ['Website reveal', 'Experience details', 'Launch story'] },
-  { no: '05', type: 'WEBSITE UPDATE', title: 'Irshad & Company', result: 'A clear, professional digital platform.', color: 'red', visual: 'irshad', summary: 'A project update exploring the new website experience created to present Irshad & Company with clarity and confidence.', slides: ['Brand presence', 'Responsive experience', 'Digital showcase'] }
+  { no: '05', type: 'WEBSITE UPDATE', title: 'Irshad & Company', result: 'A clear, professional digital platform.', color: 'red', visual: 'irshad', cover: irshadCompanyPoster, summary: 'A project update exploring the new website experience created to present Irshad & Company with clarity and confidence.', slides: [{ type: 'video', src: irshadCompanyVideo, poster: irshadCompanyPoster, label: 'Irshad & Company website experience' }] }
 ];
 const team = [
   ['WA', 'Wajha Azeem', 'Team Leader · Web & App Developer', wajhaPhoto, 'leader'], ['TA', 'Tahir Aly', 'Digital Services Manager', tahirPhoto, ''],
