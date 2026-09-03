@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fjdigital.co/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://fjdigital.co/sitemap.html</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://fjdigital.co/#projects</loc>
+  </url>
+  <url>
+    <loc>https://fjdigital.co/#services</loc>
+  </url>
+  <url>
+    <loc>https://fjdigital.co/#team</loc>
+  </url>
+  <url>
+    <loc>https://fjdigital.co/#contact</loc>
   </url>
 </urlset>
